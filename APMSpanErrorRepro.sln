@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APMSpanErrorRepro", "APMSpanErrorRepro.csproj", "{1CDC34C7-7C7E-4EBD-8CB8-E3B1B58FE404}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E15CED25-8FBA-4941-8881-6F8C0F4178A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CDC34C7-7C7E-4EBD-8CB8-E3B1B58FE404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDC34C7-7C7E-4EBD-8CB8-E3B1B58FE404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDC34C7-7C7E-4EBD-8CB8-E3B1B58FE404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDC34C7-7C7E-4EBD-8CB8-E3B1B58FE404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E15CED25-8FBA-4941-8881-6F8C0F4178A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E15CED25-8FBA-4941-8881-6F8C0F4178A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E15CED25-8FBA-4941-8881-6F8C0F4178A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E15CED25-8FBA-4941-8881-6F8C0F4178A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C09B755-6ACF-47F2-B3D3-9102CF73D0B9}
+	EndGlobalSection
+EndGlobal

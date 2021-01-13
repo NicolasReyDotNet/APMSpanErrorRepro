@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  apmspanerrorrepro:
+    image: ${DOCKER_REGISTRY-}apmspanerrorrepro
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+networks:
+    default:
+      external:
+         name: itfnetwork
